@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO and embedding meta tags -->
+    <title>GFG IGDTUW - Student Chapter Community</title>
+    <meta itemprop="name" content="GFG IGDTUW - Student Tech Community" />
+    <meta name="keywords" content="GFG IGDTUW, tech community, students, competition, goodies, learning, IGDTUW, coding challenges">
+    <meta name="twitter:title" content="GFG IGDTUW - Student Tech Community">
+    <meta property="og:title" content="GFG IGDTUW - Student Tech Community">
+    <meta property="og:description" content="Explore tech challenges and hackathons with GFG IGDTUW.">
+
+
+    <meta name="theme-color" content="#007C1C">
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="icon" href="/images/GFG IGDTUW logo.png" />
+    <link rel="apple-touch-icon" href="/images/GFG IGDTUW logo.png" />
+    <link rel="shortcut icon" href="/images/GFG IGDTUW logo.png" type="image/x-icon">
+
+    <meta itemprop="image" content="/images/embed.png" />
+    <meta name="twitter:image" content="/images/embed.png" />
+    <meta name="twitter:image:src" content="/images/embed.png">
+    <meta property="og:image" content="/images/embed.png">
+
+    <meta name="author" content="GFG IGDTUW Team">
+
+    <meta itemprop="description"
+    content="Join GFG IGDTUW, a student-led community at IGDTUW, focused on tech challenges, insightful sessions, fun events, coding contests, hackathons and a lot of knowledge." />
+<meta property="og:description"
+    content="Join GFG IGDTUW, a student-led community at IGDTUW, focused on tech challenges, insightful sessions, fun events, coding contests, hackathons and a lot of knowledge." />
+<meta name="twitter:description"
+    content="Join GFG IGDTUW, a student-led community at IGDTUW, focused on tech challenges, insightful sessions, fun events, coding contests, hackathons and a lot of knowledge." />
+<meta name="description"
+    content="Join GFG IGDTUW, a student-led community at IGDTUW, focused on tech challenges, insightful sessions, fun events, coding contests, hackathons and a lot of knowledge.">
+
+    <!-- Primary css and js files -->
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+
+    <!-- Preconnect to improve external resources load time -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="preconnect" href="https://kit.fontawesome.com">
+    <link rel="preconnect" href="https://docs.google.com">
+
+    <!-- Roboto google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome icons -->
+    <script src="https://kit.fontawesome.com/20aa92e9f6.js" crossorigin="anonymous"></script>
+
+    <!-- Past events carousel -->
+    <link rel="stylesheet" href="swiper bundle.css" />
+    <script src="swiper bundle.js"></script>
+
+    <!-- Animate on scroll -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@next/dist/aos.css" />
+    <script src="https://cdn.jsdelivr.net/npm/aos@next/dist/aos.js"></script>
+</head>
+
+<body>
+    <!-- Loading screen -->
+    <div id="loader_block">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <!-- Top of the page -->
+    <div id="top-loc"></div>
+
+    <!-- Menu bar -->
+    <nav id="navbar-wrap">
+        <!-- Desktop Menu -->
+        <div id="navbar">
+            <div data-aos="fade-down" id="logo" class="reverse">
+                <div class="mobile-btn" style="font-size:30px;cursor:pointer; font-weight:bold;" onclick="openNav()">
+                    <i class="fa-solid fa-bars fa-lg"></i>
+                </div>
+                <div class="logo"><img
+                        src="images/logo-small.png">
+                </div>
+            </div>
+            <div id="links" data-aos="fade-down">
+                <a href="#top-loc">About Us</a>
+                <!-- <a href="#events-loc">Events</a> -->
+                <a href="#team-loc">Team</a>
+                <a href="#social-media-loc">Social Media</a>
+                <!-- <a href="#achievements-loc">Achievements</a> -->
+                <a href="#why-join-us">Why Join Us?</a>
+                <a href="#faqs">FAQs</a>
+                <a href="#contact-us-loc">Contact Us</a>
+            </div>
+        </div>
+
+
+        <!-- Mobile Menu -->
+        <div id="mySidenav" class="sidenav">
+            <a style="cursor:pointer;" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#top-loc">About Us</a>
+            <!-- <a href="#events-loc">Events</a> -->
+            <a href="#team-loc">Team</a>
+            <a href="#social-media-loc">Social Media</a>
+            <!-- <a href="#achievements-loc">Achievements</a> -->
+            <a href="#why-join-us">Why Join Us?</a>
+            <a href="#faqs">FAQs</a>
+            <a href="#contact-us-loc">Contact Us</a>
+        </div>
+    </nav>
+
+    <!-- Header section -->
+    <section id="about-us-loc" class="section-body">
+        <div id="header-wrap">
+            <div id="header-text" data-aos="fade-up" data-aos-delay="300">
+                <div id="bonjour">Hello, GEEKS!!</div>
+                <div id="welcome">Welcome to <span id="geeksforgeeks">GeeksforGeeks</span> <span id="chapter">Chapter
+                    of IGDTUW</span> 
+                </div>
+                <div id="description">We are a community of tech enthusiasts and innovators from Indira Gandhi Delhi Technical University for Women who share a passion to learn, share, and grow together. 
+                    We, as a student chapter of GeekforGeeks at IGDTUW, aim at fostering a culture of coding, collaboration, and creativity within the campus.
+                </br></br>
+                    Any student of IGDTUW who has an interest in technology, coding, or innovation is highly welcome. Let's learn, grow, and create something amazing together!
+                    </div>
+            </div>
+            <div id="header-img" data-aos="fade-up">
+                <img src="images/embed.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Upcoming events section -->
+    <!-- <section id="events-loc" class="swiper-body">
+        <div data-aos="flip-up">
+            <img id="events-head-img"
+                src="images/upcoming events.png">
+        </div>
+        <div class="swiper mySwiper" data-aos="fade-up">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img data-src="/"></div>
+                <div class="swiper-slide"><img data-src="/"></div>
+                <div class="swiper-slide"><img data-src="/"></div>
+                <div class="swiper-slide"><img data-src="/"></div>
+                <div class="swiper-slide"><img data-src="/"></div>
+                <div class="swiper-slide"><img data-src="/"></div>
+                <div class="swiper-slide"><img data-src="/"></div>
+                <div class="swiper-slide"><img data-src="/"></div>
+                <div class="swiper-slide"><img data-src="/"></div>
+                <div class="swiper-slide"><img data-src="/"></div>
+                <div class="swiper-slide"><img data-src="/"></div>
+                <div class="swiper-slide"><img data-src="/"></div>
+                <div class="swiper-slide"><img data-src="/"></div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </section> -->
+
+<section id="hr">  
+<img src="/images/hr.png" alt="hr">
+</section> 
+
+    <!-- Our core team section -->
+<section id="team-loc" class="section-body">
+    <div>
+        <!-- Team heading -->
+        <div class="our-team-head" data-aos="fade-down">
+            <img src="images/team.png" alt="Our Team">
+        </div>
+
+        <!-- Meet the Team text section -->
+        <div class="meet-the-team-text">
+            <h3>Meet the Team</h3>
+            <p>We are a pool of dedicated, passionate students who will guide you through the whole way. Know the faces behind the scene!</p>
+            <p>Come and join us at IGDTUW for a noteworthy experience that’s yours to learn, network, and have fun!</p>
+        </div>
+
+        <!-- Team members section -->
+        <div class="team-members" data-aos="fade-up">
+            <!-- Team member 1 -->
+            <div class="our-team">
+                <div class="picture">
+                    <img class="img-fluid" src="/images/praggya.png" alt="Praggya Verma">
+                </div>
+                <div class="team-content">
+                    <h3 class="name">Praggya Verma</h3>
+                    <h4 class="title">Vice President</h4>
+                </div>
+                <ul class="social">
+                    <li><a target="_blank" href="https://www.linkedin.com/in/praggyaverma/" class="fa fa-linkedin" aria-hidden="true"></a></li>
+                    <li><a target="_blank" href="https://x.com/vpraggya" class="fa-brands fa-x-twitter" aria-hidden="true"></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/praggyaverma/" class="fa fa-instagram" aria-hidden="true"></a></li>
+                </ul>
+            </div>
+
+            <!-- Team member 2 -->
+            <div class="our-team">
+                <div class="picture">
+                    <img class="img-fluid" src="/images/shruti.jpg" alt="Shruti Jha">
+                </div>
+                <div class="team-content">
+                    <h3 class="name">Shruti Jha</h3>
+                    <h4 class="title">Campus Lead</h4>
+                </div>
+                <ul class="social">
+                    <li><a target="_blank" href="https://www.linkedin.com/in/shruti-jha-28b4b5255" class="fa fa-linkedin" aria-hidden="true"></a></li>
+                    <li><a target="_blank" href="https://x.com/Shruti_Jha6?t=jyKDKRQ06iwFe8gtuk_5fw&s=08" class="fa-brands fa-x-twitter" aria-hidden="true"></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/shuru_iti/" class="fa fa-instagram" aria-hidden="true"></a></li>
+                </ul>
+            </div>
+
+            <!-- Team member 3 -->
+            <div class="our-team">
+                <div class="picture">
+                    <img class="img-fluid" src="/images/laavanya.jpg" alt="Laavanya Kushwaha">
+                </div>
+                <div class="team-content">
+                    <h3 class="name">Laavanya Kushwaha</h3>
+                    <h4 class="title">Tech Lead</h4>
+                </div>
+                <ul class="social">
+                    <li><a target="_blank" href="https://www.linkedin.com/in/laavanya-kushwaha-5748a5291/" class="fa fa-linkedin" aria-hidden="true"></a></li>
+                    <li><a target="_blank" href="https://portfoliolaavanya.netlify.app/" class="fa-regular fa-address-card" aria-hidden="true"></a></li>
+                    <li><a target="_blank" href="https://github.com/LaavKush" class="fa fa-github" aria-hidden="true"></a></li>
+                    <li><a target="_blank" href="https://x.com/LaavanyaKu19891" class="fa-brands fa-x-twitter" aria-hidden="true"></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/laavanyakushwaha/" class="fa fa-instagram" aria-hidden="true"></a></li>
+                </ul>
+            </div>
+
+            <!-- Team member 4 -->
+            <div class="our-team">
+                <div class="picture">
+                    <img class="img-fluid" src="/images/kusum.jpg" alt="Kusum">
+                </div>
+                <div class="team-content">
+                    <h3 class="name">Kusum</h3>
+                    <h4 class="title">Content Head</h4>
+                </div>
+                <ul class="social">
+                    <li><a target="_blank" href="https://www.linkedin.com/in/kusum-985803257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="fa fa-linkedin" aria-hidden="true"></a></li>
+                    <li><a target="_blank" href="https://x.com/KhushiNafria?t=8jDVQ74TTQyn47dDhr-IdQ&s=09" class="fa-brands fa-x-twitter" aria-hidden="true"></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/khushi_nafria?igsh=MWFteXJnOHo0bGowcA==" class="fa fa-instagram" aria-hidden="true"></a></li>
+                </ul>
+            </div>
+
+            <!-- Team member 5 -->
+            <div class="our-team">
+                <div class="picture">
+                    <img class="img-fluid" src="/images/nidhi.jpg" alt="Nidhi">
+                </div>
+                <div class="team-content">
+                    <h3 class="name">Nidhi</h3>
+                    <h4 class="title">PR Head</h4>
+                </div>
+                <ul class="social">
+                    <li><a target="_blank" href="https://www.linkedin.com/in/nidhi-goyal-a21644302?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="fa fa-linkedin" aria-hidden="true"></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/nidhi__027?igsh=MWZ0aG93MXRibjhxdw==" class="fa fa-instagram" aria-hidden="true"></a></li>
+                </ul>
+            </div>
+
+            <!-- Team member 6 -->
+            <div class="our-team">
+                <div class="picture">
+                    <img class="img-fluid" src="/images/shraddha.jpg" alt="Shraddha Sharma">
+                </div>
+                <div class="team-content">
+                    <h3 class="name">Shraddha Sharma</h3>
+                    <h4 class="title">EM Head</h4>
+                </div>
+                <ul class="social">
+                    <li><a target="_blank" href="https://www.linkedin.com/in/shraddha-sharma-648a5b270?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="fa fa-linkedin" aria-hidden="true"></a></li>
+                    <li><a target="_blank" href="https://x.com/Shraddhaa168" class="fa-brands fa-x-twitter" aria-hidden="true"></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/shraddhasharma1476?igsh=YXZ4MHBpY3I4M25x" class="fa fa-instagram" aria-hidden="true"></a></li>
+                </ul>
+            </div>
+
+            <!-- Team member 7 -->
+            <div class="our-team">
+                <div class="picture">
+                    <img class="img-fluid" src="/images/aadya.jpg" alt="Aadya">
+                </div>
+                <div class="team-content">
+                    <h3 class="name">Aadya</h3>
+                    <h4 class="title">Social Media Head</h4>
+                </div>
+                <ul class="social">
+                    <li><a target="_blank" href="https://www.linkedin.com/in/aadya-kumar-a00718248/" class="fa fa-linkedin" aria-hidden="true"></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/aadya_kumar/" class="fa fa-instagram" aria-hidden="true"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Social media section -->
+    <section id="social-media-loc" class="socials-body">
+        <div id="socials-wrap">
+            <div id="socials-img" data-aos="flip-up">
+                <img src="images/social media.png">
+            </div>
+            <div class="social-item-wrap">
+                <div data-aos="zoom-in-down">
+                    <a target="_blank" href="https://www.instagram.com/gfg_igdtuw?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                        <div class="social-item"><i
+                                class="fa-fw fa-brands fa-instagram fa-2x"></i><span>Instagram</span>
+                        </div>
+                    </a>
+                    <a target="_blank" href="https://discord.com/">
+                        <div class="social-item"><i class="fa-fw fa-brands fa-discord fa-2x"></i><span>Discord</span>
+                        </div>
+                    </a>
+                    <a target="_blank" href="https://twitter.com/">
+                        <div class="social-item"><i class="fa-brands fa-x-twitter fa-2x"></i><span>Twitter</span>
+                        </div>
+                    </a>
+                </div>
+                <div data-aos="zoom-in-up">
+                    <a target="_blank" href="https://www.linkedin.com/in/gfg-student-chapter-igdtuw-203239321?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                        <div class="social-item"><i
+                                class="fa-fw fa-brands fa-linkedin-in fa-2x"></i><span>LinkedIn</span>
+                        </div>
+                    </a>
+                    <a target="_blank" href="https://www.youtube.com/">
+                        <div class="social-item"><i class="fa-fw fa-brands fa-youtube fa-2x"></i><span>YouTube</span>
+                        </div>
+                    </a>
+                    <a target="_blank" href="https://linktr.ee/">
+                        <div class="social-item"><i class="fa-fw fa-solid fa-tree fa-2x"></i><span>LinkTree</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <!-- Achievements Section -->
+  <!-- <section id="achievements-loc" class="swiper-body2">
+    <div data-aos="flip-up">
+        <img id="events-head-img"
+            src="images/achievements.png">
+    </div>
+    <div class="swiper mySwiper" data-aos="fade-up">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img data-src="/"></div>
+            <div class="swiper-slide"><img data-src="/"></div>
+            <div class="swiper-slide"><img data-src="/"></div>
+            <div class="swiper-slide"><img data-src="/"></div>
+            <div class="swiper-slide"><img data-src="/"></div>
+            <div class="swiper-slide"><img data-src="/"></div>
+            <div class="swiper-slide"><img data-src="/"></div>
+            <div class="swiper-slide"><img data-src="/"></div>
+            <div class="swiper-slide"><img data-src="/"></div>
+            <div class="swiper-slide"><img data-src="/"></div>
+            <div class="swiper-slide"><img data-src="/"></div>
+            <div class="swiper-slide"><img data-src="/"></div>
+            <div class="swiper-slide"><img data-src="/"></div>
+        </div>
+    </div>
+    <div class="swiper-pagination"></div>
+</section> -->
+
+<!-- Why Join Us Section -->
+<section id="why-join-us" class="my-5">
+    <div class="container">
+        <div class="why-join" data-aos="fade-down">
+            <img src="images/why join us.png" alt="Why Join Us">
+        </div>
+        <div class="row mt-4 justify-content-center custom-cards">
+            <div class="col-md-4 col-sm-12 mb-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title"><span>🎙️</span> Speaker Sessions:</h5>
+                        <p class="card-text">Dive deep with enlightening talks by certified industry experts that expand your technical knowledge! <span>💡🎓</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 mb-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title"><span>🌐</span> Networking:</h5>
+                        <p class="card-text">Get connected to a tribe of like-minded people and form bonds that will last for a lifetime! <span>👥🤝</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 mb-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title"><span>🍽️</span> Feast Alert:</h5>
+                        <p class="card-text">Gorge on a variety of sumptuous team lunches and evening snacks that will fuel you up! <span>🍴😋</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="join-us mt-5 text-center">
+            <h2>❇️ Join Us !</h2>
+            <p>Join the vibrant community and level UP your coding skills with this opportunity. It is open for all levels: beginners to experienced people.</p>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact us section -->
+    <section id="contact-us-loc" class="contact-body">
+        <iframe loading="lazy" data-aos="fade-up" id="contact-form" frameborder="0" marginheight="0" marginwidth="0">
+            Loading!
+        </iframe>
+    </section>
+
+    <!-- FAQs section -->
+
+    <section id="faqs" class="my-5">
+        <div class="container">
+            <div class="faq" data-aos="fade-down">
+                <img src="images/faqs.png" alt="FAQs">
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Q: What is the GeekforGeeks Student Chapter at IGDTUW?</button>
+                <div class="faq-answer">
+                    <p>A: The GeekforGeeks Student Chapter at IGDTUW is a community of tech enthusiasts who are keen on coding, problem-solving, and technology. We aspire to create an ecosystem that nurtures peer-to-peer learning dynamics and helps harness the scope of the network of the student community in the area of technology.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Q: How can I join the GeekforGeeks Student Chapter at IGDTUW?</button>
+                <div class="faq-answer">
+                    <p>A: You can register as a member by filling in the membership form we’ll provide on our official website after our orientation program. Alternatively, attend the orientation program that will happen at the start of the semester.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Q: What events and activities do the GeekforGeek Student Chapter at IGDTUW organize?</button>
+                <div class="faq-answer">
+                    <p>A: We do provide coding tutorials along with interview preparation resources using live practice materials and opportunities for mentorship with experienced members. Also, events that in turn would help you with your resume building, as well as increasing your professional network.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Q: What are the benefits of joining the GeekforGeeks student chapter at IGDTUW?</button>
+                <div class="faq-answer">
+                    <p>Joining the GeeksforGeeks Student Chapter at IGDTUW provides access to exclusive coding resources, mentorship from senior students and industry professionals, and opportunities to participate in national-level coding contests. It's a great way to enhance your coding skills and build a strong portfolio.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Q: Can a person with no prior experience in these domains join the GeekforGeeks student chapter at IGDTUW?</button>
+                <div class="faq-answer">
+                    <p>A: Yes. We would love to have these novices roll up their sleeves and dive into the world of Computer Science and Technology while doing the same with us.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Q: What resources are being put out for members by the GeekforGeeks Student Chapter at IGDTUW?</button>
+                <div class="faq-answer">
+                    <p>A: Our support includes access to an array of resources, such as coding platforms, learning resources, and online courses. We also support them in accessing internship and job opportunities by other Tech-Companies we partner with.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Footer section -->
+<section class="footer-body">
+    <div>Made with <i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 2s;"></i> by</div>
+    <div>GeeksforGeeks Student Chapter IGDTUW</div>
+    <a href="images/gfg 2.png" target="_blank">
+        <img src="images/gfg 2.png" alt="GeeksforGeeks Logo" height="70" />
+    </a>
+</section>
+
+</body>
+
+</html>
